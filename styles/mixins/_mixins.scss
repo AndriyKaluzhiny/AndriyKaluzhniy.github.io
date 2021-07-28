@@ -1,0 +1,32 @@
+@mixin reset() {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin m-auto() {
+    margin: 0 auto;
+}
+
+@mixin d-flex {
+    display: flex;
+}
+
+@mixin justify-between {
+    justify-content: space-between;
+}
+
+@mixin direction-column {
+    flex-direction: column;
+}
+
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@mixin item-width {
+    width: 100%;
+    height: 120px;
+}
